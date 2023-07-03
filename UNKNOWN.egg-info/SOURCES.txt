@@ -1,4 +1,5 @@
 .pypirc
+CHANGELOG.md
 MANIFEST.in
 main.py
 setup.cfg
