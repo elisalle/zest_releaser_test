@@ -5,6 +5,7 @@ version = "0.0.1"
 authors = [
     { name = "mr duck", email = "mrduck@example.com" }
 ]
+url = "http://www.example.com/"
 
 [tool.zest-releaser]
 create-wheel = true
