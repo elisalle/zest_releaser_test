@@ -23,5 +23,3 @@ ignore = [
     "doc/build/*",
     "Dockerfile"
 ]
-[tool.setuptools.packages]
-find = {}
