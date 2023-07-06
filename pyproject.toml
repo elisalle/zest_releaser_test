@@ -7,9 +7,9 @@ authors = [
 ]
 
 [tool.zest-releaser]
-create-wheel = True
+create-wheel = true
 extra-message = "[ci skip]"
-tag-signing = True
+tag-signing = true
 
 [tool.check-manifest]
 ignore = [
