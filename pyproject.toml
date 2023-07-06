@@ -1,0 +1,26 @@
+[project]
+name = "zest-releaser-test"
+description = "shut"
+version = "0.0.1"
+authors = [
+    { name = "mr duck", email = "mrduck@example.com" }
+]
+
+[tool.zest-releaser]
+create-wheel = True
+extra-message = "[ci skip]"
+tag-signing = True
+
+[tool.check-manifest]
+ignore = [
+    "*cfg",
+    ".*yml",
+    ".coveragerc",
+    ".dockerignore",
+    "bootstrap.py",
+    "doc/build",
+    "doc/build/*",
+    "Dockerfile"
+]
+[tool.setuptools.packages]
+find = {}
