@@ -1,7 +1,7 @@
 [project]
 name = "zest-releaser-test"
 description = "shut"
-version = "0.0.1"
+version = "0.0.2.dev0"
 authors = [
     { name = "mr duck", email = "mrduck@example.com" }
 ]
